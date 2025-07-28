@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(11, 13, 25);
+    padding: 0%;
+    margin: 0%;
+}
+
+header{
+    height: 80px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: rgb(11, 13, 25);
+    color: #E0E0E0;
+    border-bottom: 2px solid whitesmoke;
+    align-items: center;
+}
+
+#HeaderIconPicture{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#HeaderWebSiteNameDiv{
+    width: 100px;
+    height: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+nav{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.NavButtons{
+    background-color: rgb(19, 23, 43);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 15px;
+}
+
+#Searchplace{
+    background-color: rgb(19, 23, 43);
+    width: 280px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+#search{
+    height: 30px;
+    width: 200px;
+    margin: 10px;
+}
+
+#SearchBtn{
+    width: 30px;
+    height: 30px;
+}
+
+#searchBtn img{
+    width: 30px;
+    height: 30px;
+}
+
+section{
+    margin: 10px;
+    color: white;
+}
+#Placeholder{
+    align-items: center;
+}
+
+#Titel {
+    text-align: center;
+    color: white;
+}
+
+#Charackters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+    height: auto;
+}
+
+.Personage {
+    width: 170px;
+    height: 250px;
+    background-color: rgba(255,255,255,0.05);
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+.Charackter_IMG{
+  width: 150px;  
+  height: auto;  
+
+}
